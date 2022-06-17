@@ -12,7 +12,7 @@ const Parcel = () => {
   const [width, setWidth] = useState("");
   const [volume, setVolume] = useState("");
   const [type, setType] = useState("");
-  const [id, setId] = useState("");
+  const [, setId] = useState("");
   const [color, setColor] = useState("");
   const [delivery, setDelivery] = useState("");
   const [sensitive, setSensitive] = useState("");
