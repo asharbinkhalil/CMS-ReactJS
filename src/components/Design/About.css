@@ -1,0 +1,42 @@
+.about {
+    min-height: 100vh;
+    width: 100vw;
+    padding: 100px 50px 50px 50px;
+    background: black;
+    color: rgba(255, 255, 255, 0.8);
+  }
+  
+  iframe {
+    margin-left: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+  
+  iframe:last-child {
+    padding-right: 20px;
+  }
+  
+  .videos {
+    transform: translateX(-50px);
+    display: flex;
+    overflow-x: scroll;
+    width: 100vw;
+    background-color: #990000;
+    background-image: linear-gradient(147deg, #990000 0%, #ff0000 74%);
+  }
+  
+  .videos::-webkit-scrollbar {
+    height: 10px;
+    outline: none;
+  }
+  
+  .videos::-webkit-scrollbar-thumb {
+    border-radius: 0;
+    background: white;
+  }
+  
+  @media (max-width: 500px) {
+    .videos::-webkit-scrollbar {
+      display: none;
+    }
+  }
