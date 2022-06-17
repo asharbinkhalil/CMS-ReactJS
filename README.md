@@ -1,3 +1,15 @@
+
+Hello,
+I've deployed this app on firebase also.
+Just open this link.
+Open [https:://cms.firebase.web.app/](https://auth-dev-ffe46.web.app/)to view it in the browser.
+
+
+
+
+
+Using in VS CODE:
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
